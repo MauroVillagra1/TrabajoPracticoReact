@@ -1,0 +1,30 @@
+.formcolor{
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 100vw;
+}
+
+.cuadrado{
+    width: 15vw;
+    height: 15vw;
+    max-width: 130px;
+    max-height: 130px;
+    margin: 0 auto;
+    margin-right: 5%;
+    
+}
+
+.buttonform{
+    width: 20vw;
+}
+.formtop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+

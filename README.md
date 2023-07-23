@@ -1,7 +1,7 @@
 # ProyectosRollingCode
-ProyectosRollingCode Aqui se encuentran los 14 ejercicios realizados para el cursado de Rolling Code.
-
-Tabla de Contenidos
+ProyectosRollingCode Aqui se encuentran los 14 ejercicios realizados para el cursado de Rolling Code.<br>
+<br>
+Tabla de Contenidos<br>
 Punto 1: Hello world - Dificultad:  🟢.<br>
 Punto 2: Hello world (parte 2)- Dificultad:  🟢.<br>
 Punto 3: Hello world (parte 3) - Dificultad:  🟢.<br>
@@ -60,7 +60,7 @@ Punto 13: Web del clima - Dificultad:  🟢🟡🔴.<br>
 Punto 14: Blog de recetas - Dificultad:  🟢🟡🔴.<br>
 <br>
 Tecnologias usadas 👩🏻‍💻<br>
-HTML5 CSS Bootstrap Javascript React<br>
+HTML5 CSS React-Bootstrap Javascript React<br>
 <br>
 Contribuidores 👥<br>
 Villagra Mauro<br>

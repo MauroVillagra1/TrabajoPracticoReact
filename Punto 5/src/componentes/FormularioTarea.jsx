@@ -7,9 +7,7 @@ const FormularioTarea = () => {
   const [listaTareas, setListaTareas] = useState([]);
 
   useEffect(() => {
-    // Obtener la lista de tareas del localStorage al cargar el componente
     const storedTareas = JSON.parse(localStorage.getItem("tareas"));
-    console.log(listaTareas);
     if (storedTareas) {
       setListaTareas(storedTareas);
     }
@@ -18,28 +16,22 @@ const FormularioTarea = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validar que la tarea no esté vacía antes de agregarla
     if (tarea.trim() !== "") {
-      // Guardar la tarea en el array listaTareas
       setListaTareas([...listaTareas, tarea]);
-      // Limpiar el valor del input
       setTarea("");
     }
   };
 
   const handleBorrarTarea = (indexABorrar) => {
-    // Copiar la lista de tareas actual
-    const nuevasTareas = [...listaTareas];
-    // Eliminar la tarea seleccionada por índice
-    nuevasTareas.splice(indexABorrar, 1);
-    // Actualizar la lista de tareas con la tarea eliminada
-    setListaTareas(nuevasTareas);
+    setListaTareas(prevListaTareas => prevListaTareas.filter((_, index) => index !== indexABorrar));
   };
 
   useEffect(() => {
-    // Guardar la lista de tareas en el localStorage cada vez que se actualice, excepto al cargar el componente
     if (listaTareas.length > 0) {
       localStorage.setItem("tareas", JSON.stringify(listaTareas));
+    }
+    else {
+      localStorage.removeItem("tareas"); 
     }
   }, [listaTareas]);
 
@@ -58,7 +50,6 @@ const FormularioTarea = () => {
           </Button>
         </Form.Group>
       </Form>
-      {/* Pasa la lista de tareas y la función handleBorrarTarea como props */}
       <ListaTareas listaTareas={listaTareas} onDelete={handleBorrarTarea} />
     </>
   );

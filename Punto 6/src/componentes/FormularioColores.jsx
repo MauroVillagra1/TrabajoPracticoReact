@@ -12,7 +12,6 @@ const FormularioColores = () => {
 
 
   useEffect(() => {
-    // Obtener la lista de tareas del localStorage al cargar el componente
     const storedColoresList = JSON.parse(localStorage.getItem("colores"));
     console.log(coloresList);
     if (storedColoresList) {
@@ -38,7 +37,6 @@ const FormularioColores = () => {
       color: nombreLowerCase,
     };
 
-    // Verificamos si el color ya existe en la lista antes de agregarlo
     if (!coloresList.some((color) => color.nombre === nombreLowerCase)) {
       setColoresList([...coloresList, nuevoColor]);
     }
@@ -54,11 +52,12 @@ const FormularioColores = () => {
   };
 
   useEffect(() => {
-    // Guardar la lista de tareas en el localStorage cada vez que se actualice, excepto al cargar el componente
     if (coloresList.length > 0) {
       localStorage.setItem("colores", JSON.stringify(coloresList));
     }
-    console.log(coloresList);
+    else {
+      localStorage.removeItem("colores"); 
+    }
   }, [coloresList]);
  
 

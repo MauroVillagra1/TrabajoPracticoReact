@@ -10,9 +10,8 @@ import empleado07 from './images/empleado07.png';
 import empleado08 from './images/empleado08.png';
 import empleado09 from './images/empleado09.png';
 
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-// Import other employee images as needed
 
 const empleados = [
   { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: empleado01 },

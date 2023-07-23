@@ -12,7 +12,6 @@ const FormularioPeliculas = ({ onPeliculaAgregada }) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Guardar la película en el local storage
     LocalStorage.guardarPelicula({ nombre, descripcion, genero });
     onPeliculaAgregada({ nombre, descripcion, genero });
     setNombre('');

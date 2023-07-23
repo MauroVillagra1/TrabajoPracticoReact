@@ -9,8 +9,7 @@ const Formulario = () => {
   };
 
   const [formData, setFormData] = useState(initialFormData);
-  const [error, setError] = useState(""); // Estado para el mensaje de error
-
+  const [error, setError] = useState("");
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
@@ -23,10 +22,10 @@ const Formulario = () => {
 
     if (nombre && apellido && dni && email) {
       alert("Datos enviados");
-      setFormData(initialFormData); // Reinicia el formulario a los valores iniciales
-      setError(""); // Reinicia el mensaje de error
+      setFormData(initialFormData); 
+      setError(""); 
     } else {
-      setError("Completar todos los datos"); // Muestra el mensaje de error
+      setError("Completar todos los datos"); 
     }
   };
 
@@ -72,7 +71,7 @@ const Formulario = () => {
           value={formData.dni}
           onChange={handleInputChange}
           maxLength={8}
-          pattern="[0-9]{8}" // Expresión regular para aceptar solo 8 números
+          pattern="[0-9]{8}" 
           
         />
       </div>
@@ -90,7 +89,7 @@ const Formulario = () => {
           
         />
       </div>
-      {error && <div className="alert alert-danger">{error}</div>} {/* Muestra el mensaje de error */}
+      {error && <div className="alert alert-danger">{error}</div>} 
       <button type="submit" className="btn btn-success">
         Enviar
       </button>

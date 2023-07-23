@@ -1,6 +1,6 @@
 *{
-  margin: 0; /* Eliminamos los márgenes predeterminados del body */
-  padding: 0; /* Eliminamos los rellenos predeterminados del body */
+  margin: 0; 
+  padding: 0; 
 }
 
 .App {
@@ -11,8 +11,8 @@
   text-align: center;
   background-color: #282c34;
   color: white;
-  min-height: 100vh; /* El background ocupará el 100% de la altura de la pantalla */
-  min-width: 100vw; /* El background ocupará el 100% del ancho de la pantalla */
+  min-height: 100vh; 
+  min-width: 100vw; 
 }
 
 .title {
@@ -43,7 +43,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   display: block;
-  margin: 0 auto; /* Centro el botón horizontalmente */
+  margin: 0 auto; 
 }
 
 .alert {
@@ -63,12 +63,11 @@ button {
   color: white;
 }
 
-/* Media Query for responsiveness */
 @media screen and (max-width: 600px) {
   form {
-    max-width: 90%; /* Reducimos el ancho del formulario en pantallas más pequeñas */
+    max-width: 90%; 
   }
   input {
-    width: 100%; /* Ancho del input al 100% en pantallas más pequeñas */
+    width: 100%; 
   }
 }

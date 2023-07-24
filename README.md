@@ -9,7 +9,8 @@ Punto 3: Hello world (parte 3) - Dificultad:  🟢.<br>
 Repository: https://github.com/MauroVillagra1/Punto1-3React<br>
 Deploy: https://lucent-kleicha-b1d1c9.netlify.app<br>
 <br>
-_________________________________________________________________________
+_________________________________________________________________________<br>
+
 <br>
 Punto 4: Lista de tareas - Dificultad:  🟢.<br>
 Punto 5: Lista de tareas (con localstorage)- Dificultad:  🟢🟡.<br>

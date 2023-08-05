@@ -13,7 +13,6 @@ const App = () => {
     
   };
  
-
   return (
     <Container className='background-page'>
       <Row>

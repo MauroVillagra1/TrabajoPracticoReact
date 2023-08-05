@@ -59,10 +59,34 @@ Deploy: https://thriving-baklava-879aa7.netlify.app<br>
 _________________________________________________________________________<br>
 <br>
 Punto 11: Web de noticias - Dificultad:  🟢🟡.<br>
+<br>
+Repository: https://github.com/MauroVillagra1/Punto11React<br>
+Deploy: https://silly-salamander-7d0ed3.netlify.app<br>
+<br>
+_________________________________________________________________________<br>
+<br>
 Punto 12: Web de noticias v2 - Dificultad:  🟢🟡.<br>
+<br>
+Repository: https://github.com/MauroVillagra1/Punto12React<br>
+Deploy: https://jade-cocada-f8fe30.netlify.app<br>
+<br>
+_________________________________________________________________________<br>
+<br>
 Punto 13: Web del clima - Dificultad:  🟢🟡🔴.<br>
+<br>
+Repository: https://github.com/MauroVillagra1/Punto13React<br>
+Deploy: https://profound-lollipop-0736a4.netlify.app<br>
+<br>
+_________________________________________________________________________<br>
+<br>
 Punto 14: Blog de recetas - Dificultad:  🟢🟡🔴.<br>
 <br>
+Repository: https://github.com/MauroVillagra1/Punto14React<br>
+Deploy: https://profound-lollipop-0736a4.netlify.app<br>
+<br>
+_________________________________________________________________________<br>
+<br>
+
 Tecnologias usadas 👩🏻‍💻<br>
 HTML5 CSS React-Bootstrap Javascript React<br>
 <br>
